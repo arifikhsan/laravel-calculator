@@ -1,0 +1,25 @@
+{
+    "name": "arifikhsan/laravel-calculator",
+    "description": "This demo package will do some calculations",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Arifikhsan\\LaravelCalculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arif Ikhsanudin",
+            "email": "arif.ikhsanudin.id@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arifikhsan\\LaravelCalculator"
+            ]
+        }
+    }
+}
